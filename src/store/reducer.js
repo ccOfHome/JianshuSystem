@@ -17,7 +17,7 @@ export default (state=defaultState,action)=>{
 } */
 
 //使用combineReducers来将拆分后的reducers合并       redux-immutable模块的combineReducers方法生成的就是一个immutable对象
-/* import {combineReducers} from 'redux'; */
+// import {combineReducers} from 'redux';
 import { combineReducers } from 'redux-immutable';
 import { reducer as headerReducer } from '../common/header/store';
 
